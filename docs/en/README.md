@@ -1,0 +1,24 @@
+---
+home: true
+title: Home
+heroText: Docs
+tagline: Linux，Clound，K8S
+actionText: Go
+actionLink: /link/
+actions:
+  - text: Get Started
+    link: /get-started.html
+    type: primary
+  - text: Introduction
+    link: https://vuejs.press/guide/introduction.html
+    type: secondary
+    
+features:
+- title: Linux
+  details: Share Linux operation and maintenance operation and service configuration
+- title: Clound
+  details: Share AWS, Aliyun, Huawei Cloud platform practice
+- title: K8S
+  details: Share K8S cluster deployment, troubleshooting
+footer: LearnVueECS | Copyright © 2025-present
+---

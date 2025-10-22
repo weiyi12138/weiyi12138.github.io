@@ -1,0 +1,25 @@
+# 所有文本文件使用 LF 换行符，提交和检出时不转换
+* text eol=lf
+
+# 二进制文件（如图片、压缩包）不进行换行符处理
+*.png binary
+*.jpg binary
+*.zip binary
+
+# 依赖目录（必须忽略，解决路径过长问题）
+node_modules/
+.pnpm-debug.log
+pnpm-lock.yaml
+package-lock.json
+
+# VuePress 构建产物（无需提交）
+docs/.vuepress/dist/
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
+
+# 嵌套仓库警告相关（若 dist 曾是仓库，强制忽略）
+docs/.vuepress/dist/.git/
+
+# 其他临时文件
+.vscode/
+*.log

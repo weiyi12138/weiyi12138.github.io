@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/docs/\",\"lang\":\"zh-CN\",\"title\":\"\",\"description\":\"私有知识库\",\"head\":[],\"locales\":{\"/\":{\"selectLanguageName\":\"简体中文\",\"selectLanguageText\":\"选择语言\"},\"/en/\":{\"selectLanguageName\":\"English\",\"selectLanguageText\":\"Language\"}}}")
