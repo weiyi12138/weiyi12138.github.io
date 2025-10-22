@@ -35,6 +35,7 @@ jobs:
 
       - name: 安装依赖
         run: pnpm install --frozen-lockfile
+        working-directory: ./
 
       - name: 构建文档
         env:
