@@ -5,7 +5,7 @@ import {zhNavbar,enNavbar} from './navbar.js'
 import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
 
 export default defineUserConfig({
-  base: '/docs/',
+  base: '/',
   lang: 'zh-CN',
   // title: '知识库',
   description: '私有知识库',
